@@ -2,7 +2,7 @@
   "name": "angular_mouse_events",
   "title": "angular_mouse_events",
   "version": "0.0.1",
-  "description": "add the nfFocus and ngBlur events",
+  "description": "Add the nfFocus and ngBlur events",
   "main": "index.js",
   "scripts": {
     "test": ""
@@ -32,12 +32,12 @@
     "grunt-contrib-compass": "~0.1.3",
     "grunt-contrib-nodeunit": "~0.1.2"
   },
-  "repository": "",
+  "repository": "https://github.com/yahyaKacem/angular_mouse_event_test.git",
   "keywords": [
-    "angularjs",
-    "ngFocus",
     "ngBlur",
-    "directive"
+    "ngFocus",
+    "directive",
+    "AngularJS"
   ],
   "author": {
     "name": "Yahya Kacem",

@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html ng-app="mouse_events_app">
 <head>
   <meta charset="utf-8">
   <title>AngularJS mouse event tests</title>
@@ -23,16 +23,27 @@
     </script>
   <![endif]-->
 </head>
-<body>
-  <div class="container well"></div>
+<body ng-controller="MainCtrl">
+  <div class="container well">
+    <input
+      name="test"
+      ng-focus="focus($event)"
+      ng-blur="blur($event)"
+      class="test input-block-level"
+      placeholder="focus and blur to see effects"
+    >
+    <button class="btn btn-primary btn-large pull-right">
+      I do nothing
+    </button>
+  </div>
   <script src="libs/jquery/jquery.min.js"></script>
   <script src="libs/unstable-angular-complete/angular.js"></script>
   <script src="libs/underscore/underscore-min.js"></script>
-  <scripts src="scripts/vars.js"></script>
-  <scripts src="scripts/controllers/main.js"></script>
-  <scripts src="scripts/directives/main.js"></script>
-  <scripts src="scripts/app.js"></script>
-  <scripts src="scripts/services/main.js"></script>
-  <scripts src="scripts/filters/main.js"></script>
+  <script src="scripts/vars.js"></script>
+  <script src="scripts/controllers/main.js"></script>
+  <script src="scripts/directives/main.js"></script>
+  <script src="scripts/app.js"></script>
+  <script src="scripts/services/main.js"></script>
+  <script src="scripts/filters/main.js"></script>
 </body>
 </html>
