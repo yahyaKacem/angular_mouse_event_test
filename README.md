@@ -1,7 +1,7 @@
 angular_mouse_event_test
 ========================
 
-Trying to add ngFocus and ngBlur to AngularJS.
+Trying to add ngFocus and ngBlur to AngularJS maybe other events.
 
 #INSTALLATION:
 
@@ -19,5 +19,43 @@ that will install alot of dependencies, after that finish do this steps:
         ` 'click dblclick mousedown mouseup mouseover mouseout mousemove mouseenter mouseleave keydown keyup keypress focus blur'.split(' '),`
     3. Use the ngFocus and the ngBlur as your new directives.
 
-###Events to test later:
-    A list can be found in this directory in a file named "all_the_js_events".
+###Events to test and add later:
+    Javascript events:
+    `
+    'cut',
+    'blur',
+    'copy',
+    'load',
+    'click',
+    'error',
+    'focus',
+    'keyup',
+    'paste',
+    'reset',
+    'wheel',
+    'change',
+    'resize',
+    'scroll',
+    'select',
+    'submit',
+    'unload',
+    'focusin',
+    'keydown',
+    'mouseup',
+    'dblclick',
+    'focusout',
+    'keypress',
+    'mouseout',
+    'mousedown',
+    'mousemove',
+    'mouseover',
+    'textinput',
+    'hashchange',
+    'mouseenter',
+    'mouseleave',
+    'mousewheel',
+    'contextmenu',
+    `
+    HTML5 events:
+    A list of events could be found here:
+    [HTML5 events list](http://www.quackit.com/html_5/tags/html_5_event_handler_content_attributes.cfm).
